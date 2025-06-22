@@ -17,7 +17,18 @@ export class AppComponent implements OnInit{
   rowData:any[] = [];
   
   
-  colDefs: ColDef[] = [{ field : "firstName"},];
+  colDefs: ColDef[] = [{ field : "firstName"},
+    { field : "age"},
+    { field : "birthDate"},
+    { field : "bloodGroup"},
+    { field : "gender"},
+    { field : "eyeColor"},
+    { field : "email"},
+    { field : "height"},
+    { field : "phone"}
+    
+  ];
+
 
   pagination =true;
   paginationPageSize = 20;
