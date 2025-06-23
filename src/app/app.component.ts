@@ -23,7 +23,7 @@ export class AppComponent implements OnInit{
     { field : "bloodGroup"},
     { field : "gender"},
     { field : "eyeColor"},
-    { field : "email"},
+    //{ field : "email"},
     { field : "height"},
     { field : "phone"}
     
